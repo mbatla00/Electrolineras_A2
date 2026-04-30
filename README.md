@@ -3,6 +3,7 @@
 **Asignatura:** Matemática Finita II  
 **Grado:** Ingeniería de Datos e Inteligencia Artificial  
 **Curso:** 2025/2026
+
 **Corredor:** A-2 (Madrid – Zaragoza – Barcelona)
 
 ---
