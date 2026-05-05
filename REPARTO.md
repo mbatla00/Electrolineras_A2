@@ -12,7 +12,7 @@
 |:------:|-------------|-----------------|----------------------|
 | **1** | María, Sofía | Formulación matemática y análisis de complejidad | Secciones 1-3 del informe |
 | **2** | ???, ??? | Diseño algorítmico e implementación | Notebooks con ILP y heurística |
-| **3** | ???, ??? | Datos, grafos, árboles, flujos y visualización | Notebooks con grafo, MST, flujo y mapas |
+| **3** | Iván, Marcos | Datos, grafos, árboles, flujos y visualización | Notebooks con grafo, MST, flujo y mapas |
 
 ---
 
