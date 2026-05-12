@@ -22,8 +22,8 @@ Diseño óptimo de una red de recarga para vehículos eléctricos en la A-2 que 
 | Sofía | 1 | Formulación y complejidad |
 | ??? | 2 | Algoritmos |
 | ??? | 2 | Algoritmos |
-| ??? | 3 | Datos, grafos y visualización |
-| ??? | 3 | Datos, grafos y visualización |
+| Iván | 3 | Datos, grafos y visualización |
+| Marcos | 3 | Datos, grafos y visualización |
 
 > El reparto detallado con todas las tareas está en [`REPARTO.md`](REPARTO.md)
 
@@ -117,3 +117,4 @@ pip install geopandas networkx pulp matplotlib numpy pandas openpyxl
 4. Ahuja, R. K. et al. (1993). *Network Flows*
 5. Ministerio de Transportes (2024). *Mapa de Tráfico 2024*
 6. UE (2021). *Reglamento AFIR 2021/1119*
+https://www.i-de.es/conexion-red-electrica/produccion-energia/mapa-capacidad-acceso
