@@ -1,0 +1,93 @@
+{
+  "parametros": {
+    "autonomia_referencia_km": 350.0,
+    "bat_salida": 0.8,
+    "bat_llegada_min": 0.1,
+    "distancia_max_km": 245.0,
+    "radio_cobertura_km": 122.5,
+    "radio_subestacion_km": 15.0,
+    "potencia_minima_mw": 0.5,
+    "separacion_minima_km": 30.0,
+    "filtrar_candidatos_sin_potencia": false,
+    "crear_candidatos_refuerzo_si_no_factible": true,
+    "penalizacion_candidato_refuerzo": 700.0,
+    "cuota_ve": 0.03,
+    "proporcion_recarga_corredor": 0.08,
+    "factor_longitud_demanda": 100.0,
+    "puntos_min": 2,
+    "puntos_max": 6,
+    "utilizacion_objetivo": 0.7
+  },
+  "info_exacta": {
+    "estado": "Optimal",
+    "tiempo_s": 178.4668952000029,
+    "objetivo": 4415.200756219012,
+    "checkpoints": 542,
+    "candidatos_usados": 219,
+    "candidatos_auxiliares": 0,
+    "candidatos_con_refuerzo_potencial": 188,
+    "restricciones_separacion_minima": 2320
+  },
+  "info_heuristica": {
+    "estado": "Heuristica",
+    "tiempo_s": 0.06790840000030585,
+    "objetivo": 4562.997940930335
+  },
+  "metricas_corredor_exacto": {
+    "numero_electrolineras": 6,
+    "distancia_inicio_corredor_a_primera_km": 10.1,
+    "distancia_ultima_electrolinera_a_fin_corredor_km": 0.625,
+    "distancia_inicio_a_primera_max_km": 113.28999999999996,
+    "distancia_ultima_a_fin_max_km": 66.3900000000001,
+    "hueco_maximo_entre_electrolineras_consecutivas_km": 244.17000000000002,
+    "distancia_media_entre_electrolineras_km": 137.585,
+    "distancia_maxima_control_km": 244.17000000000002,
+    "distancia_maxima_permitida_km": 245.0,
+    "cumple_restriccion_cobertura": true,
+    "estaciones_sin_potencia_minima": 4,
+    "pares_menores_separacion_minima": 0
+  },
+  "comparacion": [
+    {
+      "metodo": "exacto_pulp",
+      "estado": "Optimal",
+      "tiempo_s": 178.4668952000029,
+      "objetivo": 4415.200756219012,
+      "estaciones_abiertas": 6,
+      "puntos_totales": 28,
+      "potencia_total_mw": 2.6,
+      "refuerzo_total_mw": 2.8,
+      "cobertura_demanda_pct": 100.0,
+      "distancia_max_asignacion_km": 119.77000000000001,
+      "distancia_inicio_a_primera_max_km": 113.28999999999996,
+      "distancia_ultima_a_fin_max_km": 66.3900000000001,
+      "hueco_maximo_entre_electrolineras_consecutivas_km": 244.17000000000002,
+      "distancia_maxima_control_km": 244.17000000000002,
+      "distancia_maxima_permitida_km": 245.0,
+      "cobertura_solo_tramos_reales": true,
+      "estaciones_sin_potencia_minima": 4,
+      "pares_menores_separacion_minima": 0
+    },
+    {
+      "metodo": "heuristica_voraz",
+      "estado": "Heuristica",
+      "tiempo_s": 0.06790840000030585,
+      "objetivo": 4562.997940930335,
+      "estaciones_abiertas": 5,
+      "puntos_totales": 22,
+      "potencia_total_mw": 3.4,
+      "refuerzo_total_mw": 2.8,
+      "cobertura_demanda_pct": 100.0,
+      "distancia_max_asignacion_km": 119.77000000000001,
+      "distancia_inicio_a_primera_max_km": 113.28999999999996,
+      "distancia_ultima_a_fin_max_km": 66.3900000000001,
+      "hueco_maximo_entre_electrolineras_consecutivas_km": 244.17000000000002,
+      "distancia_maxima_control_km": 244.17000000000002,
+      "distancia_maxima_permitida_km": 245.0,
+      "cobertura_solo_tramos_reales": true,
+      "estaciones_sin_potencia_minima": 4,
+      "pares_menores_separacion_minima": 0
+    }
+  ],
+  "tabla_estaciones": "output/tabla_estaciones_seleccionadas_a2.csv"
+}
