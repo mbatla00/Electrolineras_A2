@@ -20,7 +20,7 @@
   },
   "info_exacta": {
     "estado": "Optimal",
-    "tiempo_s": 178.4668952000029,
+    "tiempo_s": 184.15152660000058,
     "objetivo": 4415.200756219012,
     "checkpoints": 542,
     "candidatos_usados": 219,
@@ -30,7 +30,7 @@
   },
   "info_heuristica": {
     "estado": "Heuristica",
-    "tiempo_s": 0.06790840000030585,
+    "tiempo_s": 0.14708950000022014,
     "objetivo": 4562.997940930335
   },
   "metricas_corredor_exacto": {
@@ -51,7 +51,7 @@
     {
       "metodo": "exacto_pulp",
       "estado": "Optimal",
-      "tiempo_s": 178.4668952000029,
+      "tiempo_s": 184.15152660000058,
       "objetivo": 4415.200756219012,
       "estaciones_abiertas": 6,
       "puntos_totales": 28,
@@ -71,7 +71,7 @@
     {
       "metodo": "heuristica_voraz",
       "estado": "Heuristica",
-      "tiempo_s": 0.06790840000030585,
+      "tiempo_s": 0.14708950000022014,
       "objetivo": 4562.997940930335,
       "estaciones_abiertas": 5,
       "puntos_totales": 22,
