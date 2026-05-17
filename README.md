@@ -20,7 +20,7 @@ Diseño óptimo de una red de recarga para vehículos eléctricos en la A-2 que 
 |------------|:------:|-----|
 | María | 1 | Formulación y complejidad |
 | Sofía | 1 | Formulación y complejidad |
-| Gullén | 2 | Algoritmos |
+| Guillén | 2 | Algoritmos |
 | Álvaro | 2 | Algoritmos |
 | Iván | 3 | Datos, grafos y visualización |
 | Marcos | 3 | Datos, grafos y visualización |
